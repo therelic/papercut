@@ -1,13 +1,13 @@
 // Modules
 var fs = require('fs');
+var path = require('path');
 var format = require('util').format;
 var csv = require('fast-csv');
 var parseArgs = require('minimist');
 var dbconfig = require('../conf/dbconfig.json');
 
 // Constants
-var PGM = "papercut.js";
-var DIR = "./";
+var PGM = path.basename(__filename, ".js");
 var CUSTOMERS = "./conf/customers.csv";
 
 // Variables
