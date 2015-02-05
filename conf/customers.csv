@@ -1,0 +1,4 @@
+CUST_NO,CUST_NAME,BOX,ATTR_2,ATTR_3,ATTR_4,ATTR_5
+100, Houston Hospital, Box, Address, Amount, 
+200, Conroe Court, Box, Amount, Date, Address
+300, Galveston Beach, Date, Box, Address, Amount
